@@ -1,0 +1,38 @@
+	public void playTrack(Track einTrack) throws Exception
+    {
+		if (this.bIsPlaying)
+		{
+			this.meinPlayer.close();
+			this.bIsPlaying = false;
+		}
+        try {
+            FileInputStream fis     = new FileInputStream(einTrack.getPfad());
+            BufferedInputStream bis = new BufferedInputStream(fis);
+            this.meinPlayer = new Player(bis);
+            this.bIsPlaying = true;
+        }
+        catch (Exception e) {
+            throw(e);
+        }
+
+        // run in new thread to play in background
+        try {
+            new Thread() {
+                public void run() {
+                    try
+					{
+						meinPlayer.play();
+					}
+					catch (JavaLayerException e)
+					{
+						RuntimeException re = new RuntimeException();
+						throw  re;
+					}
+                }
+            }.start();
+        }
+        catch (Exception e) {
+            throw(e);
+        }
+        
+    }
