@@ -1,0 +1,39 @@
+Artnr.  Artikelbezeichnung  Handelsform     Preis Bestand  Mind.-B.  Fehl.-B. Wert in €
+
+Artikelgruppe: 01
+0017    Decorpa             Granulat        13,85      10         9         0    138,50
+0033    Antiviscosin-Schla  Tee              5,49      15         5         0     82,35
+0041    Warondo             Teegemisch       4,24      20        25         5     84,80
+0067    Amorphan            Kapseln         23,00       5         4         0    115,00
+0075    Appetitzügler       Tabletten        9,15      10        10         0     91,50
+0083    Eventin             Dragees         34,25      50        45         0   1712,50
+0215    Cafilon             Dragees          8,29      30        50        20    248,70
+0223    Recatol             Kapseln         24,50      20        20         0    490,00
+0231    Regenon             Dragees         21,91      30        10         0    657,30
+Summe Kst:                        3620,65
+
+Artikelgruppe: 10
+0016    Biklin-Injektionsl  Injektion      649,89       3         2         0   1949,67
+0040    Certomycin          Ampullen       232,64     125        80         0  29080,00
+Summe Kst:                       31029,67
+
+Artikelgruppe: 11
+0320    Eugucon             Tabletten       22,85       2         2         0     45,70
+0338    Glibenese           Tabletten       67,00       0         0         0      0,00
+0346    Gluborid            Tabletten       19,05       1         1         0     19,05
+0354    Glurenorm           Tabletten       20,60       2         4         2     41,20
+Summe Kst:                         105,95
+
+Artikelgruppe: 42
+0084    Neo-Zirkulin        Dragees          5,85      23        50        27    134,55
+0092    Vitasana-Lebenstro  ml              14,00      11         8         0    154,00
+0109    Knoblauch-Oelkapse  Kapseln          9,90       3         0         0     29,70
+0117    Knoblauch-Perlen    Perlen           5,35      15        10         0     80,25
+0125    Curvitala           Dragees         65,40       5         5         0    327,00
+0133    Dodecatol-oral      Dragees         14,25       0         0         0      0,00
+0141    Echrovit            Kapseln         23,00       7        10         3    161,00
+0498    Gerikreon           Dragees         18,95      20        10         0    379,00
+0521    Seniovita           Dragees          4,60      15        13         0     69,00
+Summe Kst:                        1334,50
+
+Gesamtsumme:                     36090,77
